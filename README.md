@@ -12,3 +12,6 @@ Para mas informacion, consultar el trabajo de WangXuan95. Con esta frecuencia de
 una vez abierto el fichero.
 En esta prueba no se descargan los datos, pero se puede acceder a ellos colocando un wire [7:0] ... en .outbyte          (                )
 
+
+OBSERVACIONES.
+
