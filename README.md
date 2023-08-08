@@ -31,7 +31,11 @@ produce un error a la hora de sistesis. De esta forma se consigue alimentar el s
 teorica permitida.
 
 Graficamente es este el funcionamiento del circuito de relog.
+
 [Local 27 Mhz ]-> [PLL, out = 94.5 Mhz]->[DIV 2]-> 47.25 Mhz->[DIVISION =1 verilog code]-> 47.25 Mhz CLK SD Interfase.
+
+El codigo es muy sensible al formato de la sd card. Debe estar formateada en FAT ó FAT32.
+
 
 
 
