@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="File" Register="1" Lut="6">
+    <SubModule name="your_instance_name1"/>
+    <SubModule name="sd_file_reader_i" Register="835" Alu="336" Lut="1499" Dsp="7">
+        <SubModule name="u_sd_reader" Register="158" Lut="293">
+            <SubModule name="u_sdcmd_ctrl" Register="150" Alu="14" Lut="186"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="your_instance_name"/>
+</Module>

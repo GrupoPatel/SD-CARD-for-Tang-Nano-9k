@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "C:/verilog/Test_SD/src/sdtest.v",
+  "InstLine" : 2,
+  "InstName" : "File",
+  "ModuleFile" : "C:/verilog/Test_SD/src/sdtest.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "File",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/verilog/Test_SD/src/sdtest.v",
+    "InstLine" : 26,
+    "InstName" : "your_instance_name1",
+    "ModuleFile" : "C:/verilog/Test_SD/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/verilog/Test_SD/src/sdtest.v",
+    "InstLine" : 38,
+    "InstName" : "sd_file_reader_i",
+    "ModuleFile" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sd_file_reader.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "sd_file_reader",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sd_file_reader.v",
+      "InstLine" : 362,
+      "InstName" : "u_sd_reader",
+      "ModuleFile" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sd_reader.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "sd_reader",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sd_reader.v",
+        "InstLine" : 100,
+        "InstName" : "u_sdcmd_ctrl",
+        "ModuleFile" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sdcmd_ctrl.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "sdcmd_ctrl"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/verilog/Test_SD/src/sdtest.v",
+    "InstLine" : 52,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/verilog/Test_SD/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   }
+  ]
+ }
+]

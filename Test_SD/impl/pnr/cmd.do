@@ -1,0 +1,12 @@
+-d C:\verilog\Test_SD\impl\gwsynthesis\Test_SD.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\verilog\Test_SD\src\Test_SD.cst
+-cfg C:\verilog\Test_SD\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

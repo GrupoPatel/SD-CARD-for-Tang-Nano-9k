@@ -1,0 +1,37 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/verilog/Test_SD/src/sdtest.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sd_file_reader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sd_reader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/verilog/Test_SD/FPGA-SDcard-Reader-main/FPGA-SDcard-Reader-main/RTL/sdcmd_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/verilog/Test_SD/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/verilog/Test_SD/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/verilog/Test_SD/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
