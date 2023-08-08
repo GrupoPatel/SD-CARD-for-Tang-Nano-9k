@@ -10,8 +10,14 @@ Led[5:2] informan de los comando enviados a la tf card.
 El proceso se realiza mediante SD BUS, con frec de relog de 47.25 Mhz. Si se necesita una frec menor, aumentar el parametro CLK_DIV.
 Para mas informacion, consultar el trabajo de WangXuan95. Con esta frecuencia de relog, la velocidad de lectura es de 80 us/octeto, 
 una vez abierto el fichero.
-En esta prueba no se descargan los datos, pero se puede acceder a ellos colocando un wire [7:0] ... en .outbyte          (                )
+En esta prueba no se descargan los datos, pero se puede acceder a ellos colocando un wire [7:0] ... en .outbyte (                )
 
 
 OBSERVACIONES.
+
+La fuente de rejor que se utiliza el un PLL (IP gowind) con una frecuencia de 94.5 Mhz dividido entre dos por Gowin_CLKDIV. Por motivos desconocidos, 
+el sistema falla si se utiliza directamente el PLL ( a menor frecuencia ). Tampoco se puede usar Gowin_CLKDIV2. Tambien por motivos desconocidos se
+produce un error a la hora de sistesis. De esta forma se consigue alimentar el sistema con una frecencia de 47.25 Mhz; lijeramente inferior a la máxima
+teorica permitida.
+
 
